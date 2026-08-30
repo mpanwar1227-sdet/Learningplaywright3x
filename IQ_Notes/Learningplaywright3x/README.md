@@ -1,30 +1,62 @@
 # Learning Playwright 3x
 
-Welcome to the Learning Playwright 3x project! This repository is designed to help you learn the basics of JavaScript and how to use Playwright for testing web applications.
+This workspace is a hands-on JavaScript learning repository created while preparing for Playwright and automation testing. It contains chapter-based exercises, example programs, and notes that cover JavaScript fundamentals and practical coding patterns.
 
-## Project Structure
+## Project Overview
 
-The project contains the following files and directories:
+The repository is organized by learning topic and includes exercises for:
 
-- **01_chapter_Javascript/**
-  - `01_HelloWorld.js`: A JavaScript file that demonstrates basic console logging and variable declaration. It logs greetings and the user's age to the console.
+- JavaScript basics
+- Variables and scope
+- Identifiers and naming rules
+- Literals and data types
+- Operators and comparisons
+- Learning notes and reference material
 
-- **iq_notes/**
-  - `javascript-basics.md`: A Markdown document that explains fundamental concepts of JavaScript, including variables, data types, console logging, and basic syntax.
+## Repository Structure
+
+- `00_chapter_GENAI/` - AI learning notes and experiments
+- `01_chapter_Javascript/` - first JavaScript exercises
+- `02_chapter_Javasript/` - `let` and scope-related concepts
+- `03_chapter_identifier/` - identifier rules, comments, and naming examples
+- `04_chapter_Literal/` - literals, `null`, `undefined`, and numbers
+- `05_chapter_Operator/` - data types and operators
+- `IQ_Notes/` - notes and reference documents
+- `SeleniumFramework/` - Selenium-related practice area
+
+## Examples Included
+
+- `01_HelloWorld.js` - basic console output and variable usage
+- `02_let_concept.js` - `let` keyword and block-scoped behavior
+- `03_Identifier_Rules.js` - identifier naming rules and examples
+- `05_Comments.js` - single-line and multi-line comments
+- `07_Literal.js` - literals and `typeof` examples
+- `11_Number.js` and `12_Number_Part2.js` - numeric values, `BigInt`, `NaN`, and infinity
+
+## Learning Focus
+
+This project helps practice:
+
+- writing JavaScript syntax correctly
+- understanding variable declarations and scope
+- following naming conventions and comments
+- exploring primitive data types and literals
+- learning core operators and comparison behavior
+- building a strong base before automation testing with Playwright
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+1. Open the folder for a topic you want to study.
+2. Read the `.js` file and understand the code examples.
+3. Run JavaScript files with Node.js.
+4. Use the notes in `IQ_Notes/` for deeper explanations.
 
-1. Clone the repository to your local machine.
-2. Navigate to the `01_chapter_Javascript` directory.
-3. Open `01_HelloWorld.js` in your preferred code editor to explore the JavaScript code.
-4. Review the `iq_notes/javascript-basics.md` file for explanations of JavaScript concepts.
+Example:
 
-## Contributing
+```bash
+node 01_chapter_Javascript/01_HelloWorld.js
+```
 
-Feel free to contribute to this project by adding more examples, explanations, or improving the existing documentation. Your contributions are welcome!
+## Notes
 
-## License
-
-This project is open-source and available under the MIT License.
+This repository is intended for self-learning, revision, and continuous practice. It is a beginner-friendly collection of examples and notes that gradually build JavaScript knowledge.
